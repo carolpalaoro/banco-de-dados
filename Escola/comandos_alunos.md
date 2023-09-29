@@ -206,7 +206,9 @@ INSERT INTO alunos (nome, data_de_nascimento,primeira_nota, segunda_nota, curso_
 ### 1) Faça uma consulta que mostre os alunos que nasceram antes do ano 2009
 ```sql
 
--- 5ª Digitação (SQL para criar a consulta acima)
+SELECT nome, data_de_nascimento FROM alunos WHERE data_de_nascimento < '2009-01-01';
+
+--- Outra maneira ()
 
 ```
 ![Relatório 1](resultados/relatorio1.jpg)
